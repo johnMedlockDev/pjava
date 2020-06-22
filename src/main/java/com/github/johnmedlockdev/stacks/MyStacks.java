@@ -1,7 +1,7 @@
 package com.github.johnmedlockdev.stacks;
 
-import java.util.LinkedList;
 import java.util.Queue;
+import java.util.Stack;
 
 public class MyStacks {
 
@@ -9,5 +9,13 @@ public class MyStacks {
 
         waitingQueue.poll();
         return waitingQueue;
+    }
+
+    public Stack<Integer> myStack(Stack<Integer> testStack){
+        testStack.pop();
+        testStack.pop();
+        testStack.pop();
+        return testStack;
+
     }
 }

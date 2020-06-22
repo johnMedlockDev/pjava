@@ -5,13 +5,6 @@ public class Main {
 //        singly linked list
 //        doubly linked list
 
-
-//        datastructures
-//        queues fifo
-//        stacks lifo
-//        tree
-//        heap
-
 //        big 0
 
 //        streams
@@ -19,11 +12,10 @@ public class Main {
 //        concurrency
 
 //        regex
+
 //        tasks:
 //        read a csv
 //        connect to database with jdbc
-
-//        Doing:
 
 
 //
@@ -39,5 +31,7 @@ public class Main {
 //        hashmaps
 //        unit test
 //        add remove elements
+//        queues fifo
+//        stacks lifo
     }
 }

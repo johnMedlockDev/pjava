@@ -5,6 +5,7 @@ import org.junit.jupiter.api.Test;
 
 import java.util.LinkedList;
 import java.util.Queue;
+import java.util.Stack;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -26,5 +27,23 @@ class MyStacksTest {
     @Test
     void myQueue() {
        assertEquals(expectedQueue,myStacks.myQueue(waitingQueue));
+    }
+
+    @Test
+    void myStack() {
+        Stack<Integer> testStack = new Stack<Integer>();
+        Stack<Integer> testStackE = new Stack<Integer>();
+        Integer[] integers = {1,2,3,4,5,6,7};
+        Integer[] integersE = {1,2,3,4};
+
+        for(Integer i : integers){
+            testStack.push(i);
+        }
+        for(Integer i : integersE){
+            testStackE.push(i);
+        }
+
+        assertEquals( testStackE ,myStacks.myStack(testStack));
+
     }
 }
